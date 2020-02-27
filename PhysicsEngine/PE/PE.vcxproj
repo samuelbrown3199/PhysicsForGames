@@ -150,6 +150,7 @@
   <ItemGroup>
     <ClCompile Include="BasicNewtonianPhysics.cpp" />
     <ClCompile Include="GeometryVolume.cpp" />
+    <ClCompile Include="KinematicEquations.cpp" />
     <ClCompile Include="PE.cpp" />
     <ClCompile Include="VectorMath.cpp" />
     <ClCompile Include="VelocityAcceleration.cpp" />
@@ -157,6 +158,7 @@
   <ItemGroup>
     <ClInclude Include="BasicNewtonianPhysics.h" />
     <ClInclude Include="GeometryVolume.h" />
+    <ClInclude Include="KinematicEquations.h" />
     <ClInclude Include="VectorMath.h" />
     <ClInclude Include="VelocityAcceleration.h" />
   </ItemGroup>

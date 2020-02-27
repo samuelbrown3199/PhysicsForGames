@@ -12,7 +12,7 @@ namespace PE
 	class BasicNewtonianPhysics
 	{
 	public:
-		void static ComputeAccelerationDueToGravity(const double& i_MassOne,
+		void static ComputeForceDueToGravity(const double& i_MassOne,
 			const double& i_MassTwo, const double i_RadiusOne,
 			const double& i_RadiusTwo, double& o_Acceleration);
 		void static ComputeCentripetalAcceleration(const double& i_Velocity,
@@ -21,5 +21,18 @@ namespace PE
 			const double& i_Mass, double& o_PE);
 		void static ComputeKineticEnergy(const double& i_Velocity, const double&
 			i_Mass, double& o_KE);
+		void static ComputeForce(const double& i_Mass, const double& i_Aceleration,
+			double& o_Force);
+		void static FreeFallVelocityDueToGravity(const double& i_time, double& o_Velocity);
+
+		void static FreeFallVelocityWithDrag(const double& i_time, const double& i_mass,
+			const double& i_AirDensity, const double& i_DragCoefficient,
+			const double& i_Area, double& o_TerminalVelocity);
+
+	private:
+		void static ComputeTerminalVelocity(const double& i_mass,
+			const double& i_AirDensity, const double& i_DragCoefficient,
+			const double& i_Area, double& o_TerminalVelocity);
+
 	};
 }

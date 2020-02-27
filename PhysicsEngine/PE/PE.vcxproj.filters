@@ -30,6 +30,9 @@
     <ClCompile Include="BasicNewtonianPhysics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="KinematicEquations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeometryVolume.h">
@@ -42,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BasicNewtonianPhysics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KinematicEquations.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
