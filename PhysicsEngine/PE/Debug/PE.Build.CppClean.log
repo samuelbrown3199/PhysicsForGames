@@ -1,8 +1,12 @@
 c:\users\samue\desktop\gamesdevelopment\projects\physicsforgames\physicsengine\pe\debug\pe.pdb
 c:\users\samue\desktop\gamesdevelopment\projects\physicsforgames\physicsengine\pe\debug\pe.idb
-c:\users\samue\desktop\gamesdevelopment\projects\physicsforgames\physicsengine\pe\debug\pe.obj
-c:\users\samue\desktop\gamesdevelopment\projects\physicsforgames\physicsengine\pe\debug\geometryvolume.obj
 c:\users\samue\desktop\gamesdevelopment\projects\physicsforgames\physicsengine\pe\debug\velocityacceleration.obj
+c:\users\samue\desktop\gamesdevelopment\projects\physicsforgames\physicsengine\pe\debug\vectormath.obj
+c:\users\samue\desktop\gamesdevelopment\projects\physicsforgames\physicsengine\pe\debug\pe.obj
+c:\users\samue\desktop\gamesdevelopment\projects\physicsforgames\physicsengine\pe\debug\kinematicequations.obj
+c:\users\samue\desktop\gamesdevelopment\projects\physicsforgames\physicsengine\pe\debug\geometryvolume.obj
+c:\users\samue\desktop\gamesdevelopment\projects\physicsforgames\physicsengine\pe\debug\geometry.obj
+c:\users\samue\desktop\gamesdevelopment\projects\physicsforgames\physicsengine\pe\debug\basicnewtonianphysics.obj
 c:\users\samue\desktop\gamesdevelopment\projects\physicsforgames\physicsengine\debug\pe.lib
 c:\users\samue\desktop\gamesdevelopment\projects\physicsforgames\physicsengine\debug\pe.pdb
 c:\users\samue\desktop\gamesdevelopment\projects\physicsforgames\physicsengine\pe\debug\pe.tlog\cl.command.1.tlog

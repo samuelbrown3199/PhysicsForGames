@@ -1,2 +1,9 @@
 ﻿  BasicNewtonianPhysics.cpp
+  Geometry.cpp
+  GeometryVolume.cpp
+  KinematicEquations.cpp
+  PE.cpp
+  VectorMath.cpp
+  VelocityAcceleration.cpp
+  Generating Code...
   PE.vcxproj -> C:\Users\samue\Desktop\GamesDevelopment\Projects\PhysicsForGames\PhysicsEngine\Debug\PE.lib
