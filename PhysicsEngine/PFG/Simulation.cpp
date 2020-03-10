@@ -43,6 +43,8 @@ bool Simulation::Initialisation()
 }
 void Simulation::Update()
 {
+	float redBrickY = 20;
+
 	if (runSimulation)
 	{
 		if (y >= 2.5f && !hit)
@@ -72,6 +74,9 @@ void Simulation::Update()
 		}
 
 		x += 0.1f;
+		PE::BasicNewtonianPhysics::FreeFallVelocityDueToGravity(deltaT, brickVel);
+		redBrickY -= brickVel;
+		redBrick.setPosition(0, redBrickY, 0);
 
 		deltaT += 1.0f;
 	}

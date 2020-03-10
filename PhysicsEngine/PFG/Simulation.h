@@ -7,6 +7,7 @@
 
 #include "Geometry.h"
 #include "KinematicEquations.h"
+#include "BasicNewtonianPhysics.h"
 
 class Simulation
 {
@@ -18,6 +19,8 @@ private:
 	float yRot = 0;
 	float x, y, z;
 	bool hit, runSimulation;
+
+	double brickVel;
 public:
 
 	Simulation(const float& i_DeltaT);
